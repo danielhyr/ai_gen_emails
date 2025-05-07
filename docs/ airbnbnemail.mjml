@@ -1,0 +1,97 @@
+```xml
+<mjml>
+  <mj-body background-color="#0E223F" width="600px">
+    <!-- Red top section with white Airbnb logo -->
+    <mj-section background-color="#FF5A5F" padding="25px 0 15px 0">
+      <mj-column>
+        <mj-image src="https://placehold.co/32x32?text=A" alt="Airbnb logo" width="32px" padding="0 0 0 20px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Red section with title and subtitle -->
+    <mj-section background-color="#FF5A5F" padding="0 20px 30px 20px">
+      <mj-column>
+        <mj-text align="left" color="#FFFFFF" font-family="Arial" font-size="28px" font-weight="bold" padding="0 0 10px 0" line-height="34px">
+          Welcome to Airbnb
+        </mj-text>
+        <mj-text align="left" color="#FFFFFF" font-family="Arial" font-size="13px" padding="0" line-height="18px">
+          Discover and book unique spaces from local hosts all around the world – from houses and apartments, to tree houses and igloos.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- White section for main content -->
+    <mj-section background-color="#FFFFFF" padding="15px 40px 40px 40px">
+      <mj-column>
+        <mj-text align="center" font-family="Arial" font-size="16px" font-weight="bold" color="#333333" padding="0 0 20px 0">
+          Before Starting Your Adventure
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Add a Profile Photo -->
+    <mj-section background-color="#FFFFFF" padding="0 40px 40px 40px">
+      <!-- Icon left column -->
+      <mj-column width="150px" vertical-align="middle">
+        <mj-image src="https://placehold.co/80x80/orange/transparent?text=%F0%9F%93%B7" alt="Camera Icon" width="80px" padding="0" />
+      </mj-column>
+      <!-- Text and button right column -->
+      <mj-column vertical-align="middle">
+        <mj-text align="left" font-family="Arial" font-weight="bold" font-size="15px" color="#333333" padding="0 0 10px 0">
+          Add a Profile Photo
+        </mj-text>
+        <mj-text align="left" font-family="Arial" font-size="13px" color="#666666" padding="0 0 15px 0" line-height="18px">
+          If you haven’t yet, upload a photo to help hosts get to know you before inviting you into their home.
+        </mj-text>
+        <mj-button background-color="#F7F7F7" color="#333333" font-family="Arial" font-weight="700" font-size="14px" border-radius="3px" padding="0" href="#" align="left" inner-padding="12px 25px">
+          Add a Photo
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-divider padding="0" />
+
+    <!-- Verify Your Information -->
+    <mj-section background-color="#FFFFFF" padding="40px 40px 40px 40px">
+      <!-- Icon left column -->
+      <mj-column width="150px" vertical-align="middle">
+        <mj-image src="https://placehold.co/80x80/teal/transparent?text=%E2%9C%93" alt="Check Icon" width="80px" padding="0" />
+      </mj-column>
+      <!-- Text and button right column -->
+      <mj-column vertical-align="middle">
+        <mj-text align="left" font-family="Arial" font-weight="bold" font-size="15px" color="#333333" padding="0 0 10px 0">
+          Verify Your Information
+        </mj-text>
+        <mj-text align="left" font-family="Arial" font-size="13px" color="#666666" padding="0 0 15px 0" line-height="18px">
+          Consider connecting your social networks and quickly verify your email, phone number and offline ID to help build trust in the Airbnb community.
+        </mj-text>
+        <mj-button background-color="#F7F7F7" color="#333333" font-family="Arial" font-weight="700" font-size="14px" border-radius="3px" padding="0" href="#" align="left" inner-padding="12px 25px">
+          Add Verifications
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-divider padding="0" />
+
+    <!-- Get Going -->
+    <mj-section background-color="#FFFFFF" padding="40px 40px 40px 40px">
+      <!-- Icon left column -->
+      <mj-column width="150px" vertical-align="middle">
+        <mj-image src="https://placehold.co/80x80/red/transparent?text=%F0%9F%8C%90" alt="Globe Icon" width="80px" padding="0" />
+      </mj-column>
+      <!-- Text and button right column -->
+      <mj-column vertical-align="middle">
+        <mj-text align="left" font-family="Arial" font-weight="bold" font-size="15px" color="#333333" padding="0 0 10px 0">
+          Get Going
+        </mj-text>
+        <mj-text align="left" font-family="Arial" font-size="13px" color="#666666" padding="0 0 15px 0" line-height="18px">
+          Find a place you love and connect with the host. Once they confirm your stay, you’re ready to start your adventure.
+        </mj-text>
+        <mj-button background-color="#F7F7F7" color="#333333" font-family="Arial" font-weight="700" font-size="14px" border-radius="3px" padding="0" href="#" align="left" inner-padding="12px 25px">
+          Start Exploring
+        </mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
+```
